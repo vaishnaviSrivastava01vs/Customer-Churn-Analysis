@@ -3,14 +3,15 @@
  Overview
 
 This project performs end-to-end analysis of customer churn using Python, SQL, and Power BI. The goal is to identify key drivers of churn and provide actionable business insights to improve customer retention.
- Tools & Technologies
 
+Tools & Technologies
 Python (Pandas, NumPy, Scikit-learn)
 SQL (MySQL)
 Power BI (Data Visualization)
 
  - Project Structure
- Data/
+   
+ -Data/
 Contains raw dataset (`churn.csv`) used for analysis.
 
 -Jupyter notebooks/
@@ -50,18 +51,18 @@ Contains SQL queries used to:
 * Fiber optic users tend to churn more than DSL users
 * Customers without additional services (security/backup) show higher churn
 
-- SQL Analysis Highlights
+📈 SQL Analysis Highlights
 * Calculated overall churn rate using aggregation functions
 * Used CASE WHEN logic to segment churned vs retained customers
 * Grouped customers by payment method to identify high-risk segments
 
-- Python Analysis Highlights
+📈 Python Analysis Highlights
 * Cleaned missing and inconsistent data
 * Converted categorical variables for analysis
 * Performed exploratory data analysis to identify patterns
 * Built a basic predictive model (Logistic Regression)
 
-- Power BI Dashboard Features
+📈 Power BI Dashboard Features
 * KPI Card showing overall churn rate
 * Contract-wise churn comparison
 * Tenure-based churn trends
